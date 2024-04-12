@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background-color: #afafaf;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox > div {
+    margin: 0 10px;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 450px;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+figcaption {
+    display: block;
+    text-align: center;
+    color: black;
+}
+
+h1 {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    margin: 10px;
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
